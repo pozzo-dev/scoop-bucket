@@ -1,0 +1,28 @@
+{
+    "version": "0.19.2",
+    "description": "Game library for ROMs and PC games from the stores, with covers and metadata.",
+    "homepage": "https://github.com/pozzo-dev/Pozzo-Launcher",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/pozzo-dev/Pozzo-Launcher/releases/download/v0.19.2/PozzoLauncher-0.19.2-windows-x64.zip",
+            "hash": "57fb446191261f18e230a211e1380eecb385f44de6670511f7d1f166441be165",
+            "extract_dir": "PozzoLauncher"
+        }
+    },
+    "bin": "PozzoLauncher.exe",
+    "shortcuts": [
+        [
+            "PozzoLauncher.exe",
+            "Pozzo Launcher"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/pozzo-dev/Pozzo-Launcher/releases/download/v$version/PozzoLauncher-$version-windows-x64.zip"
+            }
+        }
+    }
+}
