@@ -1,12 +1,12 @@
 {
-    "version": "0.20.0",
+    "version": "0.20.1",
     "description": "Game library for ROMs and PC games from the stores, with covers and metadata.",
     "homepage": "https://github.com/pozzo-dev/Pozzo-Launcher",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/pozzo-dev/Pozzo-Launcher/releases/download/v0.20.0/PozzoLauncher-0.20.0-windows-x64.zip",
-            "hash": "d9a889525b63c99951a09f177ce937e2f52ec58741975835e9bd74760891f765",
+            "url": "https://github.com/pozzo-dev/Pozzo-Launcher/releases/download/v0.20.1/PozzoLauncher-0.20.1-windows-x64.zip",
+            "hash": "735fd11776d03f6ae823ed816394429107ce64d6017618ab6a24f80563fac37b",
             "extract_dir": "PozzoLauncher"
         }
     },
